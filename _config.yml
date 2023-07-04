@@ -193,3 +193,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll/mastodon_webfinger
+
+mastodon:
+  username: filippomirandola
+  instance: mastodon.social
+
